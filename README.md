@@ -34,7 +34,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Clone the Repository
 
-```bash
+
 git clone https://github.com/shawky2002020/X-0-project.git
 cd X-0-project
 
