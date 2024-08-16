@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+.container{
+ display: grid;
+ grid-template-columns: 1fr;
+ position: relative;
+ justify-content:center ;
+ margin: 20px; 
+ border-radius: 50%;
+
+}
+.text{
+  background: linear-gradient(0deg, #0e5d9f 1%, #5795c8 80%);
+
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+  color: #e7f0f7;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 20px;
+  }
+
+
+.button-container{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  height: 60px; 
+}
+.play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+ 
+}
+
+
+button{
+  
+  border-style: none;
+  background: #0e5d9f;
+  color: #e7f0f7;
+  font-family:  cursive;
+  font-size: 1.5rem;
+  transition-property: background-color , color,padding,transform,border;
+  cursor: pointer;
+
+  
+}
+button:hover{
+  background: #0F67B1;
+  
+}
+
+
+
+button:active{
+  background: white;
+  color: #3FA2F6;
+}
+
+.playbtn{
+  height: 110px;
+  border-radius: 80px;
+  border-radius: 50%;
+  padding: 35px;
+  color: #3FA2F6;
+  background: #e7f0f7;
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.playbtn1{
+  height: 175px;
+  border-radius: 80px;
+  border-radius: 50%;
+  padding: 70px;
+  color: #3FA2F6;
+  background: #e7f0f7;
+  font-family: cursive;
+  font-size: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+
+}
+.playbtn1:hover,
+.playbtn:hover{
+  color: #e7f0f7;
+  background: #0F67B1;
+  scale: 1.1;
+  transition-property: color,background-color,scale;
+}
+
+
+
+/* .playbtn1:focus,
+.playbtn:focus{
+  background: #000;
+  color: rgba(255, 255, 255, 0.546);
+} */
+
+
+.playbtn,
+.playbtn1,
+button{
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;}
+
+  body{
+    background: #87b4d8d3;
+    border-radius: 20px;
+  }
+
+
+
+
+
