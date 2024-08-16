@@ -1,0 +1,62 @@
+.container{
+  display: grid;
+  grid-template-columns: 700px;
+  position: relative;
+  justify-content:center ;}
+  
+ .text{
+  background: linear-gradient(0deg, #0e5d9f 1%, #5795c8 80%);   border-top-left-radius:10px ;
+   border-top-right-radius:10px ;
+  color: white;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 20px;
+ }
+ 
+ 
+ .button-container{
+   display: grid;
+   grid-template-columns: 1fr ;
+   height: 220px; 
+ }
+ 
+ button{
+  
+  border: white thin;
+  background: #0b487c;
+  color: #e7f0f7;
+  font-family:  cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: .2rem;
+  transition-property: background-color , color,padding,transform,border;
+  cursor: pointer;
+
+}
+button:hover{
+  background: #0F67B1;
+  
+}
+/* button:focus{
+  background: white;
+  color: #000000;
+  text-decoration: underline;
+} */
+ 
+ 
+ button{
+   transition-duration: 0.2s;
+   transition-timing-function: ease-in-out;}
+ 
+  
+    body{
+      background: #87b4d8d3;
+      border-radius: 20px;
+    }
+  
+   
+ 
+ 
